@@ -1,0 +1,68 @@
+p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.body-of-game{
+  display: grid;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+.box{
+  background-color: rgb(240, 240, 240);
+  margin-top: 50px;
+  display: grid;
+  height: 250px;
+  width: 400px;
+  border: solid;
+  border-color: lightblue;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.flip-coin-box{
+  display: grid;
+  justify-content: center;
+  margin-top: 10px;
+}
+.flip-coin{
+  height: 80px;
+  width: 80px;
+}
+
+.toss-button{
+  margin-top: 5px;
+  padding-top: 6px;
+  padding-bottom: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+.user-choice-box{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.front-side{
+  height: 80px;
+  width: 80px;
+}
+
+.back-side{
+  height: 80px;
+  width: 80px;
+}
+
+.reset-button{
+  height: 30px;
+  width: 90px;
+  margin-top: 55px;
+  border: solid;
+  border-width: 1px;
+  border-radius: 2px;
+  border-color: rgb(122, 200, 226);
+}

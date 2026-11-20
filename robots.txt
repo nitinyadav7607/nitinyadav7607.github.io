@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nitinyadav7607.github.io/sitemap.xml

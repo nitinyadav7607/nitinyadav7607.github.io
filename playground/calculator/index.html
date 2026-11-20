@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="icon" href="../../assets/favicon.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="styles/calculator_body.css">
+  </head>
+
+  <body>
+    <!-- Back to website (added for the Playground) -->
+    <style>body{padding-top:44px}</style>
+    <a href="../index.html" style="position:fixed;top:14px;left:14px;z-index:9999;display:inline-flex;align-items:center;gap:6px;padding:8px 14px;border-radius:999px;background:#ffffff;color:#0f2a3a;font:600 14px/1 system-ui,-apple-system,'Segoe UI',sans-serif;text-decoration:none;box-shadow:0 2px 10px rgba(0,0,0,.25);">&larr; Playground</a>
+
+
+    <div class="calculator-page">
+
+      <div class="calculator-border">
+
+        <div class="js-show-calculation">
+
+          <div class="calculation-full-box">
+
+            <div class="previous-calculation"></div>
+
+            <div class="js-input-calculation"></div>
+
+          </div>
+          
+          
+        </div>
+
+
+        <div class="button-lines">
+
+          <div class="number-buttons">
+
+            <button 
+              class="numbers" class="numbers" 
+              onclick="updateCalculation ('leftBracket');
+            ">(</button>
+
+            <button 
+              class="numbers" 
+              onclick="updateCalculation ('rightBracket');
+            ">)</button>
+
+            <button 
+              class="numbers" 
+              onclick="updateCalculation ('parcent');  
+            "><=</button>
+
+            <button 
+              class="clear"
+              onclick="updateCalculation ('clear');
+            ">Clear</button>
+          </div>
+
+
+
+
+
+          <div class="number-buttons">
+            <button 
+              class="numbers" 
+              onclick="updateCalculation ('one');  
+            ">1</button>
+
+            <button 
+              class="numbers" class="numbers" 
+              onclick="updateCalculation ('two');
+            ">2</button>
+
+            <button 
+              class="numbers" 
+              onclick="updateCalculation ('three');
+            ">3</button>
+
+            <button 
+              class="operations" 
+              onclick="updateCalculation ('addition');
+            ">+</button>
+          </div>
+
+
+
+
+          <div class="number-buttons">
+            <button 
+              class="numbers" 
+              onclick="updateCalculation ('four');
+            ">4</button>
+
+            <button 
+              class="numbers" 
+              onclick="updateCalculation ('five');
+            ">5</button>
+
+            <button 
+              class="numbers" 
+              onclick="updateCalculation ('six');
+            ">6</button>
+
+            <button 
+              class="operations"
+              onclick="updateCalculation ('substraction');
+            ">-</button>
+          </div>
+
+
+
+
+
+          <div class="number-buttons">
+            <button 
+              class="numbers"
+              onclick="updateCalculation ('seven');
+            ">7</button>
+
+            <button 
+              class="numbers"
+              onclick="updateCalculation ('eight');
+            ">8</button>
+
+            <button 
+              class="numbers"
+              onclick="updateCalculation ('nine');
+            ">9</button>
+
+            <button 
+              class="operations"
+              onclick="updateCalculation ('multiplication');
+            ">*</button>
+          </div>
+
+
+
+
+
+          <div class="number-buttons">
+            <button 
+              class="numbers"
+              onclick="updateCalculation ('zero');
+            ">0</button>
+
+            <button 
+              class="numbers"
+              onclick="updateCalculation ('decimal');
+            ">.</button>
+
+            <button 
+              class="numbers"
+              onclick="updateCalculation ('equal');
+            ">=</button>
+
+            <button 
+              class="operations"
+              onclick="updateCalculation ('division');
+            ">/</button>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    
+
+    <script src="script/calculatorscript.js"></script>
+    
+  </body>
+</html>
